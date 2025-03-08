@@ -1,15 +1,15 @@
 /* Small workspace name, centered, uppercase. */
-#zen-current-workspace-indicator {
+.zen-current-workspace-indicator {
   justify-content: center;
   align-items: center !important;
   display: flex;
   margin: 5px 0;
 }
-#zen-current-workspace-indicator-icon {
+.zen-current-workspace-indicator-icon {
   display: none;
 }
-#zen-current-workspace-indicator-name {
-  font-size: 0.9em !important;
+.zen-current-workspace-indicator-name {
+  font-size: 0.9rem !important;
   padding: 0 !important;
   position: static !important;
   text-transform: uppercase;
@@ -18,7 +18,7 @@
 /* Large tabs. */
 .tab-content {
   padding: 11px 9px !important;
-  font-size: 1.3em;
+  font-size: 1.3rem;
 }
 
 /* Hide New Tab Button. */
@@ -60,12 +60,12 @@
 
 /* Y-padding on the top bar. */
 #zen-appcontent-navbar-container {
-  padding: 8px 0;
+  padding: 5px 0;
 }
 
 /* Bigger text when typing in URL bar. */
 #urlbar-input[aria-expanded='true'] {
-  font-size: 1.3em !important;
+  margin-left: 0px !important;
 }
 
 /* Larger workspace icons at bottom of tab bar. */
