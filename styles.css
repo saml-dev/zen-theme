@@ -83,14 +83,16 @@
   }
 }
 
-.subviewbutton[active='true'] {
-  scale: 1.5;
-}
+.subviewbutton {
+  &[active='true'] {
+    transform: scale(1.5);
+  }
 
-.subviewbutton:not([active='true']) {
-  opacity: 0.3 !important;
+  &:not([active='true']) {
+    opacity: 0.4 !important;
 
-  &:hover {
-    opacity: 1 !important;
+    &:hover {
+      opacity: 1 !important;
+    }
   }
 }
