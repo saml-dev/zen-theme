@@ -71,7 +71,6 @@
 /* Larger workspace icons at bottom of tab bar. */
 #zen-workspaces-button {
   font-size: 1.5em;
-  gap: 8px !important;
 }
 
 /* Faded bottom icons in the sidebar until hover. */
@@ -81,5 +80,17 @@
 
   &:hover {
     opacity: 1;
+  }
+}
+
+.subviewbutton[active='true'] {
+  scale: 1.5;
+}
+
+.subviewbutton:not([active='true']) {
+  opacity: 0.3 !important;
+
+  &:hover {
+    opacity: 1 !important;
   }
 }
